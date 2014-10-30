@@ -1,0 +1,11 @@
+[core]
+	excludesfile = /Users/harold/.gitignore_global
+	editor = emacs
+
+[color]
+    status = always
+	ui = true
+
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
